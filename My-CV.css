@@ -1,0 +1,21 @@
+*
+{font-family: "Helvetica Neue",Arial,sans-serif;}
+
+.box
+{display: grid;
+width: 1000px;
+height: 3000px;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 600px 600px 600px;
+align-items: center;
+border: solid blue 1px;
+border-radius: 4px;
+justify-content: space-between;}
+
+.section
+{border-radius: 12px;
+background-color: silver;}
+
+h2
+{font-variant: small-caps;
+text-align: center;}
