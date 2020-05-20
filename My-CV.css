@@ -1,6 +1,8 @@
 *
 {font-family: "Helvetica Neue",Arial,sans-serif;}
 
+
+
 .box
 {display: grid;
 width: 1300px;
@@ -13,6 +15,12 @@ justify-content: space-around;
 text-align: center;
 background-image: url(liege.jpg);
 background-size: cover;
+margin: 0;
+position: absolute;
+top:50%;
+left:50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
 }
 
 .section
