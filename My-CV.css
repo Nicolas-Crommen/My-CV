@@ -5,8 +5,8 @@
 {display: grid;
 width: 1300px;
 height: 750px;
-grid-template-columns: 350px 350px 350px;
-grid-template-rows: 400px 400px;
+grid-template-columns: 460px 350px 350px;
+grid-template-rows: 1fr 1fr;
 align-items: center;
 border-radius: 4px;
 justify-content: space-around;
