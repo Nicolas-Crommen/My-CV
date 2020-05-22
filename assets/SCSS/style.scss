@@ -1,0 +1,32 @@
+.box
+{
+	font:{family: "Helvetica Neue",Arial,sans-serif;
+	}
+	display: grid;
+	width: 1300px;
+	height: 750px;
+	grid:{template-columns: 460px 350px 350px;
+	template-rows: 1fr 1fr;}
+	justify-content: space-around;
+	align-items: center;
+	text-align:center;
+	border-radius: 4px;
+	background-image: url(my-cv/assets/img/liege.jpg);
+	background-size: cover;
+	margin: 0;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	img {width: 300px;
+		height: 300px;
+		object-fit: contain;
+		margin-left: auto;
+		margin-right: auto;}
+	h2 {font-variant: small-caps;
+		text-align: center;}
+	a {text-decoration: none;}
+	.section {border-radius: 12px;
+			background-color: silver;}
+}	
